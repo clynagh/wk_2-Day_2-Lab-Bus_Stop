@@ -28,8 +28,8 @@ def test_how_many_passengers
 end
 
 def test_pick_up
-  # person = @bus1.pick_up(@person1)
-  assert_equal("Pablo", @bus1.pick_up(@person1.name))
+  # @bus1.pick_up(@person1)
+  assert_equal("Pablo", @bus1.pick_up(@person1)
 end
 
 end
